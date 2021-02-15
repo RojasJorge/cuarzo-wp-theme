@@ -1,0 +1,13 @@
+{
+    "/dist/js/site.js": "/dist/js/site.js",
+    "/dist/js/manifest.js": "/dist/js/manifest.js",
+    "/dist/css/site.css": "/dist/css/site.css",
+    "/dist/js/vendor.js": "/dist/js/vendor.js",
+    "/dist/css/vendor.css": "/dist/css/vendor.css",
+    "/dist/images/cuarzo-logo.png": "/dist/images/cuarzo-logo.png",
+    "/dist/images/cuarzo-logo@2x.png": "/dist/images/cuarzo-logo@2x.png",
+    "/dist/images/fb.png": "/dist/images/fb.png",
+    "/dist/images/fb@2x.png": "/dist/images/fb@2x.png",
+    "/dist/images/ins.png": "/dist/images/ins.png",
+    "/dist/images/ins@2x.png": "/dist/images/ins@2x.png"
+}

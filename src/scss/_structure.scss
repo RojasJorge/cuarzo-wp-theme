@@ -1,0 +1,97 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+body {
+  @media (max-width: 1024px) {
+    padding-top: 85px;
+  }
+}
+
+.site {
+  min-height: 100%;
+  position: relative;
+  
+  &--header {
+    position: relative;
+    height: 85px;
+    border-bottom: 14px solid $primary;
+
+    @media (max-width: 1024px) {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 2;
+      background-color: $white;
+    }
+
+    .logo {
+      background-color: $white;
+      z-index: 8;
+    }
+  }
+
+  &--contents {
+    padding-bottom: 445px;
+  }
+
+  &--footer {
+    height: 445px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background: $primary;
+
+    &__contents {
+      background: $white;
+    }
+
+    &__copy {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: $white;
+      height: 60px;
+    }
+
+    &__description {
+      height: 385px;
+
+      .description {
+        color: #707070;
+        text-align: justify;
+      }
+
+      .contact-info {
+        h3 {
+          font-size: 23px;
+          text-transform: uppercase;
+        }
+
+        h3, p {
+          margin-bottom: 5px;
+        }
+
+        .social {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          display: flex;
+          justify-content: flex-end;
+
+          li {
+            margin: 10px 0 0 10px;
+          }
+        }
+      }
+    }
+  }
+}
